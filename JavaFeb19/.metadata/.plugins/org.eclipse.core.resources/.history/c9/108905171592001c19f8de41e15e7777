@@ -1,0 +1,33 @@
+package array_Assignment;
+
+import java.util.Scanner;
+
+public class Biggest_Number {
+
+	public static void main(String[] args) 
+	{
+		
+//		variable Declaration
+		int [] nums=new int[5];
+		int i;
+		int Big=0;
+		
+//		Reading Numbers from the user and to Find the Biggest number
+		 
+		for(i=0;i<nums.length;i++) 
+		{
+			Scanner n =new Scanner(System.in);
+			System.out.println("Enter Number-"+(i+1)+" : " );
+			nums[i]=n.nextInt();
+			if(Big>nums[i])
+			{
+				Big = Big;
+			}
+			else 
+			{
+				Big = nums[i];
+			}
+		}
+		System.out.println("The biggest number in the Given Numbers is : "+ Big);
+	}
+}

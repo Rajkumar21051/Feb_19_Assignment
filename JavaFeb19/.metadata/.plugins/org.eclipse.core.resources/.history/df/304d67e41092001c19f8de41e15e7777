@@ -1,0 +1,10 @@
+package array_Assignment;
+
+public class Sum_Average {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
